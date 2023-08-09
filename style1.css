@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* :root{
+    --green:rgba(6, 151, 83, 0.839);
+    --white: whitesmoke;
+} */
+.container{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    position: fixed;
+    text-align: right;
+}
+.cont1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5%;
+}
+li{
+    display: inline;
+    padding: 5% 3%;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+.main{
+    height: 780px;
+    background-color: #25b79f;
+    text-align: center;
+    width: 100%;
+}
+.main .home{
+    /* position: absolute;
+    top: 38%;
+    left: 38%;
+    right: 38%;
+    bottom: 38%; */
+    padding: 300px 0;
+}
+.main .home h1{
+    font-size: 3rem;
+    color:#07374a;
+    padding: 15%;
+    width:none;
+}
+.main .home h2{
+    font-size: 2.6rem;
+}
+.main .home i{
+    position: absolute;
+    bottom: 10%;
+    font-size: 40px;
+}
+.about{
+    background-color: #07374a;
+    text-align: center;
+    padding: 100px 10%;
+    font-size: 1.5rem;
+}
+.about img{
+    height: 250px;
+}
+.skills{
+    padding: 50px 0 50px 0;
+}
+.skills label{
+    display: block;
+    padding: 15px 0;
+    padding-bottom: 0;
+    text-align: left;
+}
+.skills input{
+    width: 100%;
+}
+.portfolio{
+    background-color: #25b79f;
+    text-align: center;
+    padding: 100px 10%;
+    font-size: 1.5rem;
+    color: #07374a;
+}
+.prt1{
+    padding: 50px;
+}
+.icons{
+    padding: 20px;
+    font-size: 25px;
+}
+.portfolio img{
+    height: 60%;
+    width: 70%;
+    border-radius: 20px;
+}
+.contact{
+    background-color: #07374a;
+    color: #25b79f;
+    text-align: center;
+    padding: 305px 0;
+    font-size: 1.9rem;
+}
+.contact span{
+    padding: 2px 10px;
+}
